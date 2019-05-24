@@ -1,9 +1,102 @@
+<style type="text/css">
+body{
+			background-color: #5F6A6A;
+			background-image: url("../../img/diseño/descarga.jpeg");
+			background-repeat: no-repeat;
+			background-size: 100vw 100vh;
+		}
+		.elemento{
+			margin: 2px 0px 1px 10px;
+		}
+		h3{
+			color: #AAB7B8;
+			font-size:25px;
+		}
+		#form{
+			background-color: #2E4053;
+			width: 500px;
+			text-align: center;
+			height: 520px;
+			margin-top: 50px;
+			border-radius: 5px;
+
+		}
+		#submit{
+			margin-top: 15px;
+			width: 72%;
+			font-size: 20px;
+			color: white ;
+			border-style: 0px;
+			background-color: #28B463  ;
+			border-width: 1px;
+			height: 40px;
+		}
+		#linkactualizar{
+			margin-top: 10px;
+			margin-left: : 0px;
+			width: 36%;
+			font-size: 20px;
+			border-style: 0px;
+			background-color: #28B463  ;
+			border-width: 1px;
+			height: 40px;
+			color: white;
+		}
+		#linkborrar{
+			margin-top: 10px;
+			margin-right: 0px;
+			width: 36%;
+			font-size: 20px;
+			border-style: 0px;
+			background-color: #28B463  ;
+			border-width: 1px;
+			height: 40px;
+			color: white;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		input{
+		background-color: #2E4053;
+		color: grey;
+		border:grey 1px solid;
+		height: 25px;
+		text-align: center;
+		}
+		
+
+
+	</style>
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Formulario
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+	
+	<h2>DATOS PERSONALES</h2>
+	<input value="Nombre" type="text" name="Nombre" class="elemento" title="nombre">
+	<input value="Apellidos" type="text" name="Apellidos" class="elemento" title="apellidos"><br>
+	<input value="Edad" type="text" name="Edad" class="elemento" title="edad">
+	<input value="Dirección" type="text" name="direccion" class="elemento" title="direccion"><br>
+	<h2>FORMACIÓN ACADÉMICA</h2>
+	<input value="Nombre del Título" type="text" name="nombretitulo" class="elemento" title="Nombre del titulo">
+	<input value="Fecha Inicio" type="date" name="fecha_inicio" class="elemento" title="fecha inicio"><br>
+	<input value="Fecha Fin" type="date" name="fecha_fin" class="elemento" title="fecha fin">
+	<h2>EXPERIENCÍA PROFESIONAL</h2>
+	<input value="Ocupación" type="text" name="ocupacion" class="elemento" title="ocupacion">
+	<input value="Fecha Inicio" type="date" name="fecha_iniciop" class="elemento" title="fecha fin"><br>
+	<input value="Fecha Fin" type="date" name="fecha_finp" class="elemento" title="fecha finp">
+	<h2>IDIOMAS</h2>
+	<input value="Idioma" type="text" name="idioma" class="elemento" title="idioma">
+	<input value="Título" type="text" name="titulo" class="elemento" title="titulo"><br><br>
+
+			
+			
+			<input id="linkactualizar" type="submit" value="Añadir Datos" name="AñadirDatos">
+		
+</ion-content>

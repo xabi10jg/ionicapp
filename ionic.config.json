@@ -1,5 +1,7 @@
 {
   "name": "XabiApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
